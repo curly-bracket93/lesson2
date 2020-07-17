@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms</title>
 </head>
+
 <body>
-    <img src="img/logo4.jpg" width="1520" alt="space logo">
-    <p>Thank you for visiting our website. Please, take part in our survey to tell about your experience</p>
-    <p>Please, complete the form below. To return to the main page click <a href="index.html">here</a></p>
-    <form action="https://formspree.io/xwkrwwjj" method="POST">
-        <label for="fname">First Name:</label>
-        <input type="text" name="fname" id="fname" required>
-         <label for="lname">Last Name:</label>
-        <input type="text" name="lname" id="lname" required>
-        <br>
-        <label for="male">Male:</label>
-        <input type="radio" name="sex" id="male" value="male">
-        <label for="female">Female:</label>
-        <input type="radio" name="sex" id="female" value="female">
-        <br>
-        <fieldset>
-            <legend>Choose your date of birth:</legend>
-                <label for="day">Day</label>
-                <select name="day" id="day">
+	<img src="img/site-logo.jpg" width="1520" alt="space logo">
+	<p>Thank you for visiting our website. Please, take part in our survey to tell about your experience</p>
+	<p>Please, complete the form below. To return to the main page click <a href="index.html">here</a></p>
+	<form action="https://formspree.io/xwkrwwjj" method="POST">
+		<label for="fname">First Name:</label>
+		<input type="text" name="fname" id="fname" required>
+		<label for="lname">Last Name:</label>
+		<input type="text" name="lname" id="lname" required>
+		<br>
+		<label for="male">Male:</label>
+		<input type="radio" name="sex" id="male" value="male">
+		<label for="female">Female:</label>
+		<input type="radio" name="sex" id="female" value="female">
+		<br>
+		<fieldset>
+			<legend>Choose your date of birth:</legend>
+			<label for="day">Day</label>
+			<select name="day" id="day">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -56,8 +58,8 @@
                     <option value="30">30</option>
                     <option value="31">31</option>
                 </select>
-                <label for="month">Month</label>
-                <select name="month" id="month">
+			<label for="month">Month</label>
+			<select name="month" id="month">
                     <option value="January">January</option>
                     <option value="February">February</option>
                     <option value="March">March</option>
@@ -71,8 +73,8 @@
                     <option value="November">November</option>
                     <option value="December">December</option>
                 </select>
-                <label for="year">Year</label>
-                <select name="year" id="year">
+			<label for="year">Year</label>
+			<select name="year" id="year">
                     <option value="2002">2002</option>
                     <option value="2001">2001</option>
                     <option value="2000">2000</option>
@@ -128,33 +130,34 @@
                     <option value="1950">1950</option>
                 </select>
 
-        </fieldset>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required>
-        <p>How would you rate our website?</p>
-                <label for="one-star">1</label>
-        <input type="radio" name="rate" id="one-star" value="one-star"><br>
-                <label for="two-stars">2</label>
-        <input type="radio" name="rate" id="two-stars" value="two-stars"><br>
-                <label for="three-stars">3</label>
-        <input type="radio" name="rate" id="three-stars" value="three-stars"><br>
-                <label for="four-stars">4</label>
-        <input type="radio" name="rate" id="four-stars" value="four-stars"><br>
-                <label for="five-stars">5</label>
-        <input type="radio" name="rate" id="five-stars" value="five-stars"><br>
-        <br>
-        <label for="newsletter">Would you like to subscribe to our newsletter?</label>
-            <input type="checkbox" name="newsletter" id="newsletter" checked>
-        <br>
-        <label for="comments">Comments:</label><br>
-        <textarea id="comments" name="comments" rows="10" cols="75">
+		</fieldset>
+		<br>
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" required>
+		<p>How would you rate our website?</p>
+		<label for="one-star">1</label>
+		<input type="radio" name="rate" id="one-star" value="one-star"><br>
+		<label for="two-stars">2</label>
+		<input type="radio" name="rate" id="two-stars" value="two-stars"><br>
+		<label for="three-stars">3</label>
+		<input type="radio" name="rate" id="three-stars" value="three-stars"><br>
+		<label for="four-stars">4</label>
+		<input type="radio" name="rate" id="four-stars" value="four-stars"><br>
+		<label for="five-stars">5</label>
+		<input type="radio" name="rate" id="five-stars" value="five-stars"><br>
+		<br>
+		<label for="newsletter">Would you like to subscribe to our newsletter?</label>
+		<input type="checkbox" name="newsletter" id="newsletter" checked>
+		<br>
+		<label for="comments">Comments:</label><br>
+		<textarea id="comments" name="comments" rows="10" cols="75">
         </textarea>
-        <br>
-        <label for="terms">By checking this checkbox you agree to our terms and services</label>
-            <input type="checkbox" name="terms" id="terms" required>
-        <br>
-        <input type="submit" name="send request" value="Submit">
+		<br>
+		<label for="terms">By checking this checkbox you agree to our terms and services</label>
+		<input type="checkbox" name="terms" id="terms" required>
+		<br>
+		<input type="submit" name="send request" value="Submit">
     </form>
 </body>
+
 </html>
